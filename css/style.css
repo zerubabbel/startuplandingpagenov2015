@@ -35,6 +35,9 @@ margin-top: 25px;
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .content {
 	width: 970px;
@@ -95,3 +98,36 @@ body {
     margin:0 auto;
 }
 
+/* Three Icon Section*/
+.cases h2 {
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cases .devices {
+    
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+    text-align: center;
+}
+
+.cases .devices {
+	display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.cases .devices > li {
+    width: 33.3333333%;
+    float:left;
+}
+
+.caption h3 {
+	font-weight: 400;
+}
